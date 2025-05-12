@@ -15,13 +15,13 @@ The deadline for this project is 16 of May 2025 so the project time frame is qui
 The application I selected is to help people to see how healthy they are eating; in my application you can take pictures using your phone’s camera and then model scan image and see what foods there is and then it tells you how healthy that food is. There is many of these kinds of applications already and many health apps are using this already, but I try eating healthily again, so with this app I can look at my eating habits and this is something that is interesting for me and practical.
 
 **Input:** Image
-	Image is taken by phone camera in application
+	-Image is taken by phone camera in application
  
 **Output:** Healthy food and not healthy food
-	Version 1 I have simple binary output so I just show if my model can classify if food in image is healthy or unhealthy, model is trained by using certain 	foods to do this classification.
+	-Version 1 I have simple binary output so I just show if my model can classify if food in image is healthy or unhealthy, model is trained by using certain 	foods to do this classification.
  
 **Success metric:** Accuracy
-	Success metrics are how accurately model can classify if food in image is healthy or unhealthy food, later when I do more versions, I can add that it’s 	also looking nutrition and metrics
+	-Success metrics are how accurately model can classify if food in image is healthy or unhealthy food, later when I do more versions, I can add that it’s 	also looking nutrition and metrics
  
 ## Model
 My pretrained model will be **MobileNetV4** because I use vision/camera in my application.
