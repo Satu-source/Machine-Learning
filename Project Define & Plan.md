@@ -8,15 +8,21 @@ Steps for this project is:
 4.	Optimize for Mobile Device
 5.	Build the Android App
 6.	Test & Demo
+ 
 The deadline for this project is 16 of May 2025 so the project time frame is quite short.
-Define & Plan
+
+## Define & Plan
 The application I selected is to help people to see how healthy they are eating; in my application you can take pictures using your phone’s camera and then model scan image and see what foods there is and then it tells you how healthy that food is. There is many of these kinds of applications already and many health apps are using this already, but I try eating healthily again, so with this app I can look at my eating habits and this is something that is interesting for me and practical.
+
 **Input:** Image
-	Image is taken by phone camera in application
+	- Image is taken by phone camera in application
+ 
 **Output:** Healthy food and not healthy food
-	Version 1 I have simple binary output so I just show if my model can classify if food in image is healthy or unhealthy, model is trained by using certain 	foods to do this classification.
+	- Version 1 I have simple binary output so I just show if my model can classify if food in image is healthy or unhealthy, model is trained by using certain 	foods to do this classification.
+ 
 **Success metric:** Accuracy
-	Success metrics are how accurately model can classify if food in image is healthy or unhealthy food, later when I do more versions, I can add that it’s 	also looking nutrition and metrics
+	- Success metrics are how accurately model can classify if food in image is healthy or unhealthy food, later when I do more versions, I can add that it’s 	also looking nutrition and metrics
+ 
 ## Model
 My pretrained model will be **MobileNetV4** because I use vision/camera in my application.
 MobileNet is a type of **convolutional neural network (CNN)**, and it is designed for image classification, object detection and other computer vision tasks. MobileNet’s are designed for small sizes, and they have low power consumption, so they are good for android app. Version 4 was published in September 2024 and I am using this version in my project. It includes the 'universal inverted bottleneck,' which integrates both inverted residuals and inverted bottlenecks as special cases. This allows the model to efficiently use attention modules, including multi-query attention.
