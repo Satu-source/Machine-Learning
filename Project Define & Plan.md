@@ -16,15 +16,15 @@ The application I selected is to help people to see how healthy they are eating;
 
 **Input:** Image
 
-	- Image is taken by phone camera in application
+	Image is taken by phone camera in application
  
 **Output:** Healthy food and not healthy food
 
-	- Version 1 I have simple binary output so I just show if my model can classify if food in image is healthy or unhealthy, model is trained by using certain 	foods to do this classification.
+	Version 1 I have simple binary output so I just show if my model can classify if food in image is healthy or unhealthy, model is trained by using certain 	foods to do this classification.
  
 **Success metric:** Accuracy
 
-	- Success metrics are how accurately model can classify if food in image is healthy or unhealthy food, later when I do more versions, I can add that it’s 	also looking nutrition and metrics
+	Success metrics are how accurately model can classify if food in image is healthy or unhealthy food, later when I do more versions, I can add that it’s 	also looking nutrition and metrics
  
 ## Model
 My pretrained model will be **MobileNetV4** because I use vision/camera in my application.
