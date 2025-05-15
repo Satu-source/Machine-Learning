@@ -100,31 +100,51 @@ I didn’t use augmentation to validation or test sets because they don’t need
 Below is tools and methods listed what I used for this step, I also use anaconda environment named AppliedML that I have done just for these assignments and that include all possible libraries I need to run machine learning codes. I also use GitHub to save my steps, and their branch named data for step 2 documentary and codes.
 
 1. Technical Specifications
+ 
   •	Programming Language: Python 3.10
+
   •	IDE: Spyder
+  
   •	WSL Ubuntu: Linux
+  
 
 2. Libraries Use
 
 ![image](https://github.com/user-attachments/assets/fe7e7e62-2511-43f7-9272-bc89df6ed23e)
 
-4. Image Preprocessing Steps
+3. Image Preprocessing Steps
+   
     1.	Resizing:
+       
         o	 Target size: 224x224 pixels (standard for CNNs like ResNet)
+      	
         o	 Aspect ratio preserved → Center cropping applied.
-  2.	Color Space:
+      	
+     2. Color Space:
+     
         o	Converted to RGB (3 channels) for model compatibility.
+    	
         o	Non-RGB images (e.g., grayscale) are automatically converted.
-  3.	Format Standardization:
+     3. Format Standardization:
+     
         o  	All images saved as JPEG (quality=85) for consistency.
-        o	  Original formats (PNG/BMP) are converted.
+    	
+        o	Original formats (PNG/BMP) are converted.
+    	
 4. Augmentation Techniques (Training Set Only)
+   
  •	Horizontal Flip: Image.FLIP_LEFT_RIGHT (50% chance)
+
  •	Rotation: 10-degree rotation with border padding.
+ 
  •	Augmentation Factor: 2x (each image generates 2 variants).
+ 
 5. Dataset Splitting
+    
  •	Split Ratio: 70% Train / 15% Validation / 15% Test
+ 
  •	Stratification: Maintains class balance (healthy/unhealthy).
+ 
  •	No Augmentation for Val/Test sets (ensures unbiased evaluation).
 
 # Puhti Supercomputer
