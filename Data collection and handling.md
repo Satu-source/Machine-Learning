@@ -35,13 +35,18 @@ Images are from different database and also some that I have collected, There is
 When I have collected my images and decide which are healthy food and which unhealthy I need make images of the same quality and size, for this I use image preprocessing. I use **OpenCV** and **PIL (Python Imaging Library)** for this. Code is reading images from folders and converting all images to **RGB color space**, Images are resized while maintaining aspect ratio by using a **center crop to ensure consistent dimensions**. After this I save images in a new folder and I also change images that are non-JPEG to JPEG format, I also keep the original filenames. Because my dataset is + 16 000 images I also add **parallel processing** to speed up my image preprocessing. My code also show bar that I can see progress and how many files is preprocessed so I know that all files are processed. 
 
 ![image](https://github.com/user-attachments/assets/5a2bffc0-7dbf-445a-a919-23fca08fba6d)
+
 *Figure 1 Preprocessing code in progress*
 File structure before preprocessing was like in figure 2 below and after preprocessing it is like in figure 3 below.
+
 ![image](https://github.com/user-attachments/assets/4766f0cc-2d25-47d6-b7d5-24d8d7523a82)
+
 *Figure 2 Data structure before preprocessing*
 
 ![image](https://github.com/user-attachments/assets/e10acd91-f8a2-4393-b888-1355355a2951)
+
 *Figure 3 Data structure after  preprocessing*
+
 Preprocessing is labeling images for healthy and unhealthy folders and is giving images class depending on their original folder like Apple and Pizza.  In healthy folder I have now 8571 image and unhealthy 7631 images. Labeling does not use any metadata (CSV with class labels) but this labeling should work for this assignment.
 
 Scaling for images is not pixel-value scaling but it’s resizing and converting image format, also images get same quality, and they keep aspect ratio.
@@ -53,10 +58,15 @@ So, after preprocessing I have now two files that have healthy foods and unhealt
 ## Splitting datasets
 My training set size is 70%, validation set is 15% and test set is 15%, I also maintain class balance (healthy/unhealthy). My code have *TEST_SIZE* and *VAL_SIZE* variables so I can easily adjust them if needed, Train set is then calculated how much is left from test and validation set. I use random seed (*SEED = 42*) to ensure the same splits every run. Also, my splitting code is doing augmentation like rotation and flipping in my training set images to make sure there are different kinds of images that model can train as good as possible and with various images.
 After running the code, I print how many images I have in each set (figure 4), also I have now a new folder and it have a new data structure. This structure is shown in figure 5.
+
 ![image](https://github.com/user-attachments/assets/434c331b-cd0f-4768-a8f2-35623234fc28)
+
 *Figure 4 Each set size*
+
 ![image](https://github.com/user-attachments/assets/023f00f3-943b-412f-ae35-f346ffd27f59)
+
 *Figure 5 Data structure after augmented splitting*
+
 So now my set for model are:
   •	Training set:
       o	 Healthy images: 17 997
@@ -69,7 +79,9 @@ So now my set for model are:
       o	 Unhealthy images: 1 145
 
 ![image](https://github.com/user-attachments/assets/161d0d5c-5485-4766-b341-2d5f0bb3a8da)
+
 *Figure 6 Example of how training set healthy food looks*
+
 I didn’t use augmentation to validation or test sets because they don’t need those images, only training sets needs to be augmented. Validation set is used for tune hyperparameters without bias and test set is final unbiased evaluation of real-world performance so if validation set or test set have augmented images model can give false high accuracy when it could recognize “seen” variations, and it also defeats the purpose of having unseen evaluation data.
 
 ***Code for data splitting is named: Augmented_splitting_dataset.py***
@@ -83,9 +95,10 @@ Below is tools and methods listed what I used for this step, I also use anaconda
   •	WSL Ubuntu: Linux
 
 2. Libraries Use
+
 ![image](https://github.com/user-attachments/assets/fe7e7e62-2511-43f7-9272-bc89df6ed23e)
 
-3. Image Preprocessing Steps
+4. Image Preprocessing Steps
     1.	Resizing:
         o	 Target size: 224x224 pixels (standard for CNNs like ResNet)
         o	 Aspect ratio preserved → Center cropping applied.
