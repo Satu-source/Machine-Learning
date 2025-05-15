@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Your App Name</string>
+        <!-- Other existing strings -->
+
+        <string name="notification_channel_name">Food Classification Channel</string>
+        <!-- You can change "Food Classification Channel" to your desired channel name -->
+        <string name="notification_channel_description">Channel for displaying food classification results</string>
+</resources>
