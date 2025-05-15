@@ -3,6 +3,7 @@
 Data is images of different foods; I classify if food is healthy or unhealthy. I have a dataset that include **16 206 images** of different foods.
 
 In this point my task is just classify if food is healthy or unhealthy so I decide which files are healthy and which unhealthy:
+
 **Healthy food:**
 1. Bread
 2. Apple
@@ -14,6 +15,7 @@ In this point my task is just classify if food is healthy or unhealthy so I deci
 8. Meat
 9. Tomato
 10. Vegetable-Fruit
+    
 **Unhealthy food:**
 1. Cake
 2. Dessert
@@ -69,13 +71,21 @@ After running the code, I print how many images I have in each set (figure 4), a
 
 So now my set for model are:
   •	Training set:
+  
       o	 Healthy images: 17 997
+      
       o  Unhealthy images: 16 023
+      
   •	Validation set:
+  
       o	 Healthy images: 1 286
+      
       o	 Unhealthy images: 1 145
+      
   •	Test set:
+  
       o	 Healthy images: 1 286
+      
       o	 Unhealthy images: 1 145
 
 ![image](https://github.com/user-attachments/assets/161d0d5c-5485-4766-b341-2d5f0bb3a8da)
