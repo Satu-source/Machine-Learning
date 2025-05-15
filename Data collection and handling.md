@@ -72,21 +72,21 @@ After running the code, I print how many images I have in each set (figure 4), a
 So now my set for model are:
   •	Training set:
   
-      o	 Healthy images: 17 997
+      o	Healthy images: 17 997
       
-      o  Unhealthy images: 16 023
+      o Unhealthy images: 16 023
       
   •	Validation set:
   
-      o	 Healthy images: 1 286
+      o	Healthy images: 1 286
       
-      o	 Unhealthy images: 1 145
+      o	Unhealthy images: 1 145
       
   •	Test set:
   
-      o	 Healthy images: 1 286
+      o	Healthy images: 1 286
       
-      o	 Unhealthy images: 1 145
+      o	Unhealthy images: 1 145
 
 ![image](https://github.com/user-attachments/assets/161d0d5c-5485-4766-b341-2d5f0bb3a8da)
 
