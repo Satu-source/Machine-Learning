@@ -103,9 +103,9 @@ There is two way to get Puhti working with code, **Slurm file style** and then *
 
 **Slurm scripts** are batch job submission files used in **high-performance computing (HPC) environments like Puhti**. They're written in **Bash** and contain instructions for scheduling and executing computational tasks. A **Slurm file** (*often .sh format*) tells the **Slurm workload manager**: 
 
-        - What **resources** (CPU, GPU, memory, time) do your job needs
-        - Where to **save logs** (output/error files)
-        - What **commands** to execute (e.g., running your Python script)
+- What **resources** (CPU, GPU, memory, time) do your job needs
+- Where to **save logs** (output/error files)
+- What **commands** to execute (e.g., running your Python script)
       
 Slurm files **automate job submission** to computing clusters, allowing **Parallel processing** Run tasks across multiple CPUs/GPUs
 
