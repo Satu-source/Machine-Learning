@@ -101,11 +101,11 @@ Below is tools and methods listed what I used for this step, I also use anaconda
 
 1. Technical Specifications
  
-  •	Programming Language: Python 3.10
+      •	Programming Language: Python 3.10
 
-  •	IDE: Spyder
+      •	IDE: Spyder
   
-  •	WSL Ubuntu: Linux
+      •	WSL Ubuntu: Linux
   
 
 2. Libraries Use
@@ -133,19 +133,19 @@ Below is tools and methods listed what I used for this step, I also use anaconda
     	
 4. Augmentation Techniques (Training Set Only)
    
- •	Horizontal Flip: Image.FLIP_LEFT_RIGHT (50% chance)
+     •	Horizontal Flip: Image.FLIP_LEFT_RIGHT (50% chance)
 
- •	Rotation: 10-degree rotation with border padding.
+     •	Rotation: 10-degree rotation with border padding.
  
- •	Augmentation Factor: 2x (each image generates 2 variants).
+     •	Augmentation Factor: 2x (each image generates 2 variants).
  
 5. Dataset Splitting
     
- •	Split Ratio: 70% Train / 15% Validation / 15% Test
+     •	Split Ratio: 70% Train / 15% Validation / 15% Test
  
- •	Stratification: Maintains class balance (healthy/unhealthy).
+     •	Stratification: Maintains class balance (healthy/unhealthy).
  
- •	No Augmentation for Val/Test sets (ensures unbiased evaluation).
+     •	No Augmentation for Val/Test sets (ensures unbiased evaluation).
 
 # Puhti Supercomputer
 
