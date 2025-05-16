@@ -2,6 +2,8 @@
 
 When I finally get my app work, I try it inside **Android studio** first. That first try wasn’t quite successful because the app opened but when I pressed button to take picture app crashed like we can see in video below( *video 1*)
 
+***(Videos open in YouTube when images are clicked)***
+
 [![image](https://github.com/user-attachments/assets/a64bf34f-add2-4f74-a29d-9b898d022b89)](https://youtube.com/shorts/rvuWrAJOjBo)
 
 *Video 1 First try to use app inside Android Studio*
@@ -45,4 +47,4 @@ In this assignment I use the first time **CSC Puhti supercomputer** and **Androi
 - **Android Studio** teach me how to build apps and how important it is to understand the importance of different files and how to use my app demo in my phone.
 - **GitHub**, I learn how to do documentation and how to build clear and well-structured documentation, I also learn how to use **Git GUI** to bash large datasets inside GitHub.
 
-I’m not totally happy with my final result because app is not doing classification well, but I can always later do version that is working better and at least I get lots of experience and in 9 days I finish this task even though it’s not perfect.
+I’m not totally happy with my final result because the app is not doing classification well, but I can always later do version that is working better and at least I get lots of experience and in 9 days I finish this task even though it’s not perfect.
