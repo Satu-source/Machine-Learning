@@ -43,7 +43,7 @@ I didn’t have time to look more at why my model is not working in this assignm
 
 In this assignment I use the first time **CSC Puhti supercomputer** and **Android Studio**, I also use **GitHub** first time at this scale that I made documentation there so this assignment teach me lots of things not just machine learning but other skills also.
 
-- **Puhti**, I learned how to use Slurm files to run codes, and I also need to remind myself again how to use WSL and ubuntu to load files inside Puhti project.
+- **Puhti**, I learned how to use **Slurm files** to run codes, and I also need to remind myself again how to use **WSL** and **ubuntu** to load files inside Puhti project.
 - **Android Studio** teach me how to build apps and how important it is to understand the importance of different files and how to use my app demo in my phone.
 - **GitHub**, I learn how to do documentation and how to build clear and well-structured documentation, I also learn how to use **Git GUI** to bash large datasets inside GitHub.
 
