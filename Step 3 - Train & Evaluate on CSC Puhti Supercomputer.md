@@ -83,16 +83,6 @@ When I run my version 3 Slurm file it end into epoch 6 and the result was not go
 
 ***Code for version 3 is named: CNN_model_V3.py***
 
-## Version 4 - TensorFlow model
-
-I get problems when I start building my mobile optimization code and android app, When I try do many things at the same time, I notice that I have a problem. My model is using **PyTorch**, and my **android studio codes are for Tensorflow lite**. So, I decided to do code that is using **Tensorflow instead of PyTorch**, I decided this because I haven’t used Android studio ever and when I finally get it work without errors, I don’t  want to start messing it up by changing everything into PyTorch style.
-
-For optimizing I need new code also, so I just use AI to modify my old codes that are for PyTorch to work with TensorFlow.
-
-This model uses **ResNet50, batch size 32 and number of epoch are 15, learning rate is 0.001**. So, the model is quite the same as PyTorch model when we look at hyperparameters, but TensorFlow does not support ResNet18, so it must be ResNet50.
-
-***The code for version 4 is named: Puhti_CNN_model_tensorflow_V1.py***
-
 ## Version runs in Puhti
 
 **Puhti  support GPU computing**. It uses **NVIDIA Volta V100 GPUs**, with 80 GPU nodes, each containing 4 GPUs, totaling 320 GPUs. **Puhti is optimized for GPU-accelerated machine learning, supporting frameworks like TensorFlow and PyTorch**. When I run my code in Puhti I need to submit jobs using the Slurm workload manager and specify GPU resources.
@@ -162,8 +152,4 @@ Time frame is so short that I can’t run more tests and fine tune my model more
 
 ***The code for test set run is named: Puhti_CNN_model_test1.py***
 
-## Running test set with TensorFlow
-
-After getting my *model.h5* file I run test code for testing how accurate my model is when I use it in my test set.
-
-***The code for test set run is named: test_tflite_model.py***
+After I have done my test run and get ok result, I start optimizing my model to mobile device
