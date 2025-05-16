@@ -5,7 +5,7 @@
 1. Quantization (critical for mobile)
 2. Mobile Export format
    
-    a.	I use Tensorflow Lite
+    a.	I use PyTorch
    
 4. Platform – Specific Deployment
 5. Performance benchmarks
