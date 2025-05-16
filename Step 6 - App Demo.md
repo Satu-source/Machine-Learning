@@ -27,9 +27,11 @@ I took pictures of eggs, sandwich cake and grapes. I see that my model give **ac
 ![image](https://github.com/user-attachments/assets/b4e2fd66-5a7e-4ae8-8469-823cd36e3217) 
 
 *Figure 2 Grape’s result*
+
 ![image](https://github.com/user-attachments/assets/27170fdf-de01-4dfa-98c6-f135e2f2544c)
 
 *Figure 3 Egg result*
+
 ![image](https://github.com/user-attachments/assets/202f6917-9008-4c19-8c3b-e1e77c6235f6)
 
 *Figure 4 Sandwich cake result*
@@ -48,9 +50,11 @@ So, to make sure that my food is not a problem I decided to take images from the
 ![image](https://github.com/user-attachments/assets/a44116fc-bb26-4991-9c8f-6f28feb66a91)
 
 *Figure 5 Apple result*
+
 ![image](https://github.com/user-attachments/assets/602893f5-36ca-4e0e-9927-d31aee5b2407)
 
 *Figure 6 Cake result*
+
 ![image](https://github.com/user-attachments/assets/34a40be8-f34f-49a2-a392-458643fc6e64)
 
 *Figure 7 Hamburger result*
