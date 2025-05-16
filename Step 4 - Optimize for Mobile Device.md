@@ -4,11 +4,16 @@
 
 1. Quantization (critical for mobile)
 2. Mobile Export format
-    a.	I use Tensorflow Lite 
-3. Platform – Specific Deployment
-4. Performance benchmarks
+   
+    a.	I use Tensorflow Lite
+   
+4. Platform – Specific Deployment
+5. Performance benchmarks
+   
     a.	Latency
+   
     b.	Accuracy drop
+   
     c.	model size
 
 I download my **best_model.pt** from my puhti and decided to run locally my optimization code, it take less time to do it that way then wait Puhti server to run my code.
