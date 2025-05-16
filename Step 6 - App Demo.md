@@ -24,7 +24,12 @@ So next I need to try an app in my own phone, I change my phone settings so I ca
 
 I took pictures of eggs, sandwich cake and grapes. I see that my model give **accuracy between 3.0 % to 3.2%** and it’s not good at all, I don’t know what happened to my model while I did app. When I optimize my model, it was  **85.64%** but now suddenly when I take images, models can’t classify them really. First, I think it might be because of the food that I take pictures of. Below in *figure 2*, *figure 3* and *figure 4* is my apps result from those foods.
 
-![image](https://github.com/user-attachments/assets/b4e2fd66-5a7e-4ae8-8469-823cd36e3217) *Figure 2 Grape’s result* ![image](https://github.com/user-attachments/assets/27170fdf-de01-4dfa-98c6-f135e2f2544c) *Figure 3 Egg result* ![image](https://github.com/user-attachments/assets/202f6917-9008-4c19-8c3b-e1e77c6235f6) *Figure 4 Sandwich cake result*
+![image](https://github.com/user-attachments/assets/b4e2fd66-5a7e-4ae8-8469-823cd36e3217) 
+*Figure 2 Grape’s result*
+![image](https://github.com/user-attachments/assets/27170fdf-de01-4dfa-98c6-f135e2f2544c)
+*Figure 3 Egg result*
+![image](https://github.com/user-attachments/assets/202f6917-9008-4c19-8c3b-e1e77c6235f6)
+*Figure 4 Sandwich cake result*
 
 Below is video that I take with my phone when I try my app so in video it is seen real-time predictions that the app is doing.
 
@@ -37,7 +42,12 @@ So, to make sure that my food is not a problem I decided to take images from the
 
 
 
-![image](https://github.com/user-attachments/assets/a44116fc-bb26-4991-9c8f-6f28feb66a91) *Figure 5 Apple result* ![image](https://github.com/user-attachments/assets/602893f5-36ca-4e0e-9927-d31aee5b2407) *Figure 6 Cake result* ![image](https://github.com/user-attachments/assets/34a40be8-f34f-49a2-a392-458643fc6e64) *Figure 7 Hamburger result*
+![image](https://github.com/user-attachments/assets/a44116fc-bb26-4991-9c8f-6f28feb66a91)
+*Figure 5 Apple result*
+![image](https://github.com/user-attachments/assets/602893f5-36ca-4e0e-9927-d31aee5b2407)
+*Figure 6 Cake result*
+![image](https://github.com/user-attachments/assets/34a40be8-f34f-49a2-a392-458643fc6e64)
+*Figure 7 Hamburger result*
 
 I didn’t have time to look more at why my model is not working in this assignment and also, I didn’t try to make my model even smaller like instructions say that I should try make **30 MB**, I just keep my model at **44.68 MB**. But making this assignment was fun and I challenge myself a lot so in future some point when my studies are at that point I want to try to make this model and app better.
 
